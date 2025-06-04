@@ -17,7 +17,7 @@ dotenv.config();
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: "https://lets-social.vercel.app",
+    origin: ["https://lets-social.vercel.app", "https://letssocial-frontend.onrender.com"]
   },
 });
 
