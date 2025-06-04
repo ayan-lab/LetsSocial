@@ -35,6 +35,10 @@ mongoose.connect(
 httpServer.listen(process.env.PORT || 4000, () => {
   console.log(`Listening to port : ${process.env.PORT}`);
 });
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 
 app.use(express.json());
 app.use(cors());
@@ -43,10 +47,8 @@ app.use("/api/users", users);
 app.use("/api/comments", comments);
 app.use("/api/messages", messages);
 
-if (process.env.NODE_ENV == "production") {
   app.use(express.static(path.join(__dirname, "/client/build")));
 
   app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client/build", "index.html"));
   });
-}
