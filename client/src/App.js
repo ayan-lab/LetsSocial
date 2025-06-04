@@ -1,18 +1,10 @@
-import "@mui/material";
-import "react-icons";
-import "react-icons/bi";
-import "react-icons/md";
-import "react-icons/bs";
-import "react-router-dom";
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes,
-  useParams,
-  useSearchParams,
 } from "react-router-dom";
 import theme from "./theme";
 
@@ -25,17 +17,15 @@ import ExploreView from "./components/views/ExploreView";
 import PrivateRoute from "./components/PrivateRoute";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
-import { initiateSocketConnection, socket } from "./helpers/socketHelper";
-import { useEffect } from "react";
-import { BASE_URL } from "./config";
-import { io } from "socket.io-client";
+
+import { initiateSocketConnection } from "./helpers/socketHelper";
 
 function App() {
   initiateSocketConnection();
 
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <HashRouter>
         <CssBaseline />
         <Routes>
           <Route path="/" element={<ExploreView />} />
@@ -61,7 +51,7 @@ function App() {
           <Route path="/login" element={<LoginView />} />
           <Route path="/signup" element={<SignupView />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }
