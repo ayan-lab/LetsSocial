@@ -1,2 +1,2 @@
-let BASE_URL = process.env.base_url;
+let BASE_URL = "https://letssocial-server.onrender.com/";
 export { BASE_URL };
