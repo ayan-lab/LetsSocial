@@ -22,20 +22,20 @@ Deployed at: https://lets-social.vercel.app/
 
 ## Screenshots
 ### Explore view
-![image](https://user-images.githubusercontent.com/76620777/170822044-44c5f2e6-879f-4b16-8059-f9e331ba57de.png)
+![image]()
 
 ### Post view
-![image](https://user-images.githubusercontent.com/76620777/170822055-ac686a28-7d5b-4d44-b8d3-a028521534d8.png)
+![image]()
 
 ### Nested comments
-![image](https://user-images.githubusercontent.com/76620777/170822065-64622f43-5f70-48c2-9503-0e1b80575fd2.png)
+![image]()
 
 ### Profile view
-![image](https://user-images.githubusercontent.com/76620777/170822076-18741eef-ba2b-4750-b468-e7e9561a6a71.png)
+![image]()
 
 ### Real-time private messenger
-![image](https://user-images.githubusercontent.com/76620777/170822084-89a9d3ac-22ed-4a92-ab58-9b0af878e03e.png)
+![image]()
 
 ### Search view
-![image](https://user-images.githubusercontent.com/76620777/170821986-49d2a93a-5486-47fc-885e-37c0d3f628f3.png)
+![image]()
 
