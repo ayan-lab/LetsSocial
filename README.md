@@ -2,7 +2,7 @@
 LetsSocial is a fully-featured social media web application, built with the MERN stack.  
 
 Deployed at: https://lets-social.vercel.app/  
-![GIF of LetsSocial walkthrough](https://media.giphy.com/media/9tnaXy42T4NzSJdHhP/giphy.gif)
+![GIF of LetsSocial walkthrough]()
 
 ## Features
 - Create, read, update and delete posts
